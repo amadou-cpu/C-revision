@@ -12,7 +12,7 @@ namespace C_revision
 
             //affichage de l'âge
             Console.Write("entre un âge");
-            âge = int.Parse(Console.ReadLine());
+            âge = int.Parse(Console.ReadLine() );
 
             //condition
             if (âge >= 18)
